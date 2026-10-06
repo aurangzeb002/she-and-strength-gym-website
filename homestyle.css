@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2E2E2E;
+    background: #FFFFFF;
+    line-height: 2.1;
+    padding: 40px;
+    margin: 0;
+    
+}
+
+
+
+h1 {
+   color:#e26d96;
+   font-family: 'Lucida Handwriting',cursive;
+   text-align: center;
+   font-style: bold;
+   text-decoration: underline;
+   font-size: 13mm;
+   text-shadow: -1px -1px 0 black,
+ 1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+h3 {
+    color:#ffffff;
+    text-align:center;
+    font-style: bold;
+    font-family: 'Lucida Handwriting',cursive;
+    text-decoration: underline;
+    font-size: 13mm;
+    padding-bottom: 10px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align:center;
+    font-size: 6mm;
+    
+}
+
+
+nav  {
+
+   
+   padding: 2px;
+   
+
+
+}
+
+nav a{ 
+    display: inline-block;
+    border-radius: 999px;
+    padding: 18px 4px;
+    margin: 0 125px;
+    color: rgb(0, 0, 0); /*makes text white instead of blue hyper link*/
+    text-decoration: none; /*removes blue hyperlink underline*/
+  
+    
+}
+
+.nav-block {
+  background: #ffc0cb; /*makes background of block pink*/
+  padding: 15px 25px;   
+  margin: 20px;          
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+  border-style: solid;
+}
+
+
+
+.nav-block a:hover {
+  text-decoration: underline;
+}
+
+h2{
+  text-align: center;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: palevioletred;
+
+  text-shadow: -1px -1px 0 black,
+ 1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+ 
+  
+}
+
+
+
+.container {
+  border: 2px solid #2E2E2E;
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    background: #F8BBD0;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+
+body{
+  background-image: url("gym1.jpg");
+  background-size: cover;
+  background-position: center;
+}

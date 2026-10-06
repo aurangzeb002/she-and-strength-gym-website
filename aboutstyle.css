@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2E2E2E;
+    background: #FFFFFF;
+    line-height: 2.1;
+    padding: 40px;
+    margin: 0;
+    
+}
+
+
+h1 {
+    color:#e26d96;
+    text-align:center;
+    font-style: bold;
+    text-decoration: underline;
+    font-size: 13mm;
+    padding-bottom: 10px;
+}
+
+
+nav  {
+
+   
+   padding: 2px;
+   
+
+
+}
+
+nav a{ 
+    display: inline-block;
+    border-radius: 999px;
+    padding: 18px 4px;
+    margin: 0 125px;
+    color: rgb(0, 0, 0); /*makes text white instead of blue hyper link*/
+    text-decoration: none; /*removes blue hyperlink underline*/
+  
+    
+}
+
+nav {
+    border-style: solid;
+    background-color: pink; /*makes background of block pink*/
+    padding: 15px 25px;   
+    margin: 20px;          
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
+
+
+
+.nav-block a:hover {
+  text-decoration: underline;
+}
+
+
+
+h3 {
+   text-align: center; 
+   font-size: 10mm;
+}
+
+
+
+p {
+  text-align: center;
+  display: block;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 0;  
+  border-style:double;
+  border-radius: 999px;
+  font-style: unset;
+  font-size: x-large;
+}
+
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    background:pink;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+
+body{
+  background-image: url("gym2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+

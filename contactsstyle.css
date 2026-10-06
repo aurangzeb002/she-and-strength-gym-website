@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2E2E2E;
+    background: #FFFFFF;
+    line-height: 2.1;
+    padding: 40px;
+    margin: 0;
+    
+}
+
+h2{
+  text-align: center;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: palevioletred;
+
+  text-shadow: -1px -1px 0 black,
+ 1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+ 
+  
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align:center;
+    font-size: 6mm;
+}
+
+nav  {
+
+   
+   padding: 2px;
+   
+
+
+}
+
+nav a{ 
+    display: inline-block;
+    border-radius: 999px;
+    padding: 18px 4px;
+    margin: 0 125px;
+    color: rgb(0, 0, 0); /*makes text white instead of blue hyper link*/
+    text-decoration: none; /*removes blue hyperlink underline*/
+  
+    
+}
+
+nav {
+    border-style: solid;
+    background-color: pink; /*makes background of block pink*/
+    padding: 15px 25px;   
+    margin: 20px;          
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
+
+
+
+.nav-block a:hover {
+  text-decoration: underline;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    background:pink;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+
+body{
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
